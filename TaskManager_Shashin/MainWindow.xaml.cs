@@ -25,7 +25,7 @@ namespace TaskManager_Shashin
         {
             InitializeComponent();
             init = this;
-            DataContext = new VM_Pages();
+            DataContext = new TaskManager_Shashin.ViewModels.VM_Pages();
         }
     }
 }
